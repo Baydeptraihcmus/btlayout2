@@ -6325,31 +6325,64 @@ html, body {
 header {
   background: #87509c;
   color: #ffffff; }
-  header nav.navbar a {
-    padding-top: 0.5rem; }
-  header nav.navbar ul.navbar-nav .li.nav-item a.nav-link {
-    color: #ffffff;
-    margin-right: 1rem; }
-    header nav.navbar ul.navbar-nav .li.nav-item a.nav-link button {
-      background: #643a79;
-      padding: 5px 5px;
+  header nav.navbar {
+    position: relative; }
+    header nav.navbar a {
+      padding-top: 0.5rem; }
+    header nav.navbar ul.navbar-nav li.nav-item a {
+      color: #87509c; }
+    header nav.navbar ul.navbar-nav li.nav-item button {
+      background: #87509c;
       text-align: center;
-      padding: 5px 5px;
+      border-radius: 5px; }
+    header nav.navbar ul.navbar-nav:hover li.nav-item button {
+      text-align: center;
+      border-radius: 5px;
+      background: #643a79;
       border: none;
-      transition: 0.5 all ease-in-out;
+      transition: 0.5s all ease-in-out;
       color: #ffffff; }
   header h1 {
     padding-top: 3rem; }
-  header button {
+  header h2 button {
     color: #ffffff;
     background: #eb7d4b;
     text-align: center;
-    padding: 15px 40px;
+    padding: 15px 30px;
     border-radius: 5px;
     border-bottom: 1px solid #ffffff;
-    margin: 2.5% 0% 7% 45%; }
+    margin: 2.5% 0% 7% 40%; }
 
-body {
-  background: #dfdfdf; }
+.Home .service {
+  position: relative;
+  background: #17c2a4;
+  height: 40rem;
+  margin-top: -10px; }
+  .Home .service .container .row .col {
+    color: #ffffff; }
+    .Home .service .container .row .col h1 {
+      margin-top: 50px;
+      text-align: center; }
+    .Home .service .container .row .col hr {
+      position: absolute;
+      opacity: 1;
+      border: 1px solid #c8d9e5;
+      width: 5rem;
+      margin: 1rem 0px 3rem 46%; }
+    .Home .service .container .row .col h6 {
+      width: 43%;
+      text-align: center;
+      margin: 3rem 0px 0px 28.5%; }
+  .Home .service .item {
+    position: relative; }
+    .Home .service .item figure {
+      margin-top: 5rem;
+      margin-left: 20%; }
+      .Home .service .item figure img.secive {
+        margin-left: 1rem; }
+      .Home .service .item figure .abc {
+        text-align: center; }
+        .Home .service .item figure .abc h4 {
+          color: #ffffff; }
 
 /*# sourceMappingURL=main.css.map */
