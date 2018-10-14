@@ -6335,11 +6335,9 @@ header {
       background: #87509c;
       text-align: center;
       border-radius: 5px; }
-    header nav.navbar ul.navbar-nav:hover li.nav-item button {
-      text-align: center;
+    header nav.navbar ul.navbar-nav li.nav-item:hover button {
       border-radius: 5px;
       background: #643a79;
-      border: none;
       transition: 0.5s all ease-in-out;
       color: #ffffff; }
   header h1 {
